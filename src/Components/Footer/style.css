@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #1b1b1b;
+}
+
+form input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}

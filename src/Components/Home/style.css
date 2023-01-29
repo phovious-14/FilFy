@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.home {
+    background: linear-gradient(#38B6FF, black 50%, black);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.home .logo {
+    width: 20rem;
+    animation: rotation 2s infinite linear;
+}   
+
+.home .content {
+    color: white;   
+}
+
+.content h1 {
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.content h2 {
+    font-weight: 100;
+}
+
+h1 img {
+    width: 100px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
